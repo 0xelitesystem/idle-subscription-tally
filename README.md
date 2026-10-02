@@ -14,6 +14,10 @@ Yearly charges are spread across twelve months for the monthly figure, and month
 
 A dark analog gauge panel: arc dials with needles drawn in SVG, condensed type, and an idle-bleed gauge in alarm red.
 
+## Why this exists
+
+Subscriptions billed at different cadences are hard to add up in your head, and the ones you stopped using keep charging all year. This tool does the arithmetic in one HTML file, with no account, no bank connection, and no tracking, released under the MIT license.
+
 ## Not financial advice
 
 This tool performs arithmetic on the numbers you enter. It is not financial, tax, accounting, or legal advice, and it does not account for your specific circumstances. Verify any figure before acting on it.
@@ -22,9 +26,28 @@ This tool performs arithmetic on the numbers you enter. It is not financial, tax
 
 Everything runs in your browser. Nothing you type is sent anywhere, stored, or saved. Closing the tab clears it.
 
-## Use it
+## Use
 
 Open `index.html` in any modern browser, or host it as a static page. No build step, no dependencies, no network calls.
+
+Steps:
+
+1. Click + Add subscription for each one you pay for.
+2. Enter the name, amount, and billing cycle, and tick idle on the ones you no longer use.
+3. Read the three gauges: total per year, total per month, and the yearly cost of the idle ones.
+
+## Run locally
+
+```
+git clone https://github.com/0xelitesystem/subscription-cost-auditor
+cd subscription-cost-auditor
+```
+
+Open `index.html` in a browser, or serve the folder with `python -m http.server` and visit http://localhost:8000.
+
+## Build
+
+No build step. The whole tool is one `index.html` file.
 
 ## More
 
