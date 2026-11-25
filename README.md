@@ -1,8 +1,8 @@
-# Subscription Cost Auditor
+# Idle Subscription Tally
 
 This tool totals your recurring subscriptions into a yearly figure, a monthly figure, and the annual cost of the ones you marked idle. It normalizes monthly and yearly charges to the same cadence so the totals are comparable.
 
-**Live demo:** https://0xelitesystem.github.io/subscription-cost-auditor/
+**Live demo:** https://0xelitesystem.github.io/idle-subscription-tally/
 
 ## What it does
 
@@ -39,8 +39,8 @@ Steps:
 ## Run locally
 
 ```
-git clone https://github.com/0xelitesystem/subscription-cost-auditor
-cd subscription-cost-auditor
+git clone https://github.com/0xelitesystem/idle-subscription-tally
+cd idle-subscription-tally
 ```
 
 Open `index.html` in a browser, or serve the folder with `python -m http.server` and visit http://localhost:8000.
